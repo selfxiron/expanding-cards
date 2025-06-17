@@ -48,3 +48,11 @@ body {
     opacity: 1;
     transition: all 700ms ease-in-out;
 }
+
+@media (max-width: 750px) {
+    .container{
+        /* display already flex */
+        flex-direction: column;
+        height: 90vh;
+    }
+}
